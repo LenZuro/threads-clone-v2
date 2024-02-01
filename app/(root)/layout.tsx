@@ -1,6 +1,6 @@
 import '../globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter , Roboto_Mono } from 'next/font/google'
 import { ClerkProvider } from '@clerk/nextjs'
 import Topbar from '@/components/shared/Topbar'
 import LeftSidebar from '@/components/shared/LeftSidebar'
