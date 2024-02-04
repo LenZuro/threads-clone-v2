@@ -35,3 +35,7 @@ export async function fetchThreads(pageNumber = 1 , pageSize = 20) {
     const isNext = totalThreadsCount > skipAmount + threads.length;
     return { threads , isNext}
 }
+
+export async function fetchThreadById( id: string ) {
+    
+}
